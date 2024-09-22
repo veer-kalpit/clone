@@ -2,7 +2,8 @@
 
 const CustomSolutionsBanner = () => {
   return (
-    <div className="flex justify-between items-center p-6 rounded-lg bg-gradient-to-r from-green-100 via-green-200 to-green-500">
+   <div className="container py-8 px-10 mx-8 ">
+      <div className="flex justify-between items-center p-6 rounded-lg bg-gradient-to-r from-green-100 via-green-200 to-green-500">
       {/* Left Text Section */}
       <div className="text-lg font-medium text-green-800">
         Are you a large business looking for custom solutions?
@@ -15,6 +16,8 @@ const CustomSolutionsBanner = () => {
         </button>
       </div>
     </div>
+   </div>
+    
   );
 };
 

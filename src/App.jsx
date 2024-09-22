@@ -3,6 +3,7 @@ import Hero from "./components/Hero/banner";
 import Advantages from "./components/Advantages/advantages"
 import Connect from "./components/Connect/connect"
 import Contact from "./components/Contact/contact"
+import Testimonial from "./components/Testimonials/reviews";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Advantages />
       <Connect />
       <Contact />
+      <Testimonial />
     </div>
   );
 };
